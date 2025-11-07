@@ -1,8 +1,9 @@
 @import url('https://docs.google.com/forms/d/e/1FAIpQLSc4pNSFAql_9QOeJDeyYpxb46V5XKosyQDh1raWwXcxRswE3A/viewform');
 
 :root {
-    --cor-destaque: #ED145B;
-    --cor-gradiente-preto: linear-gradient(113deg, #000 0%, #1E2021 44.96%, #1E2022 100%);
+    --cor-destaque: #ffffff;
+    --cor-gradiente-preto: linear-gradient(113deg, #771111 0%, #cc2b2b 44.96%, #1E2022 100%);
+    background: url('img/dexter-do-not-cross-design-tie-o5orc1tzldsgi7qd\ \(1\).jpg');
 }
 
 * {
@@ -16,7 +17,7 @@ body {
     justify-content: center;
     align-items: center;
     padding: 16px 21px 18px 21px;
-    background: var(--cor-gradiente-preto);
+    background: var(background);
     height: 100vh;
     flex-direction: column;
 }
